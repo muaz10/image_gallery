@@ -1,0 +1,80 @@
+	.btn{
+		background-color :  #ff981a;
+	}
+	a.btn:hover{
+		background-color :  #cc7000;
+	}
+		
+	.page-footer{
+		background-color : #000000;
+	}
+	.teal{
+		background-color : #000000;
+	}
+	.SerButton{
+		padding : 20px 25px;
+		background-color : #ffa333;
+		color : #ffffff;
+		font-family : roboto;
+		font-size : 16px;
+		border-radius : 3px;
+		vertical-align : middle;
+	}
+	a.SerButton:hover{
+		background-color : #e67e00;
+		color : #ffffff;
+	}
+	
+	.frontTitle{
+		font-family : roboto;
+		letter-spacing : 5px;
+		font-size : 25px;
+		color : #000000;
+		padding-top: 5px;
+		text-align : center;
+	}
+	
+	.titleBar{
+		background-color : #ffffff;
+	}
+	
+	.titleLine{
+		margin : auto; 
+		width : 60%;
+		height : 1px;
+		background-color : #e67e00;
+	}
+	.footer1{
+		padding : 20px 20px;
+		background-color : #e67e00;
+		text-align : center;
+	}
+	
+	.center{
+		margin : auto;
+	}
+	
+	.para{
+		font-family : roboto;
+		text-align : justify;
+		text-justify : inter-word;
+		font-style : thin;
+	}
+	
+	.navi{
+		background-color : #000000;
+	}
+	a.navi:hover{
+		background-color : #ff9900;
+	}
+	.textbox2:hover{
+		box-shadow : 0px 0.5px 5px #cccccc;
+	}
+	
+	.textbox1:hover{
+		box-shadow : 0px 0px 0.25px white;
+	}
+	
+	.dropdown-content{
+		width : 200px;
+	}

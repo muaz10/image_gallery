@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Add Photo</title>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/index.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  
+  <style>
+	.logback{
+		padding:3% 0% 3% 0%;
+	}
+  </style>
+
+</head>
+<body>
+	<ul id="dropdown1" class="dropdown-content">
+		<li><a href="#!" style="color:#ff8c00">Add Photo</a></li>
+		<li><a href="#!" style="color:#ff8c00">View requests</a></li>
+		<li class="divider"></li>
+		<li><a href="#!" style="color:#ff8c00">Account Settings</a></li>
+		
+		<!-- Dropdown Trigger -->
+	  </ul>
+	  
+	<!--navigation bar-->
+  <nav class="black" role="navigation">
+    <div class="nav-wrapper container">
+      <a id="logo-container" href="file:///C:/Users/Dilanson/Desktop/Image%20Lib/index.html" class="brand-logo"><img src = "MainLogo.png"></a>
+      <ul class="right hide-on-med-and-down">
+        <li><a class="navi" href="https://www.facebook.com/vazdilanson.mathalamuthu" style = "color : white">Sign out</a></li>
+		<li style="width:150px"><a class="dropdown-button navi" href="#!" data-activates="dropdown1" style="color:white; text-align:right">Menu<i class="material-icons right">arrow_drop_down</i></a></li>
+      </ul>
+	  
+    </div>
+  </nav>
+	<br>
+	<div class ="center" style="width:80%">
+		<div class = "titleBar">
+			<h4 class="frontTitle">ADD PHOTO</h4>
+			<div class = "titleLine"></div>
+		</div>
+		<br><br>
+	</div>
+		
+	<form onsubmit="" action="page4.php" method="GET" name="addPic">
+	<div class="row right" style="width:80%; padding-right:50px">	
+		<div class="left" style="width:50%">
+				<div class="row">
+					<div class="input-field col s12">
+						<input id="username" type="text" class="validate">
+						<label for="name" data-error="wrong" data-success="right">Title of the Image</label>
+					</div>
+				</div>
+			</div>
+	
+			<div class="left" style="width:50%">
+				<div class="row">
+					<div class="input-field col s12">
+						<input id="username" type="text" class="validate">
+						<label for="address" data-error="wrong" data-success="right">Image ID</label>
+					</div>
+				</div>
+			</div>
+		
+			<div class="left" style="width:50%">
+				<div class="row">
+					<div class="input-field col s12">
+						<input id="username" type="text" class="validate">
+						<label for="address" data-error="wrong" data-success="right">Subtitle</label>
+					</div>
+				</div>
+			</div>
+		
+			<div class="left" style="width:50%">
+				<div class="row">
+					<div class="input-field col s12">
+						<input id="username" type="text" class="validate">
+						<label for="address" data-error="wrong" data-success="right">Category</label>
+					</div>
+				</div>
+			</div>
+		
+			<div class="left" style="width:50%">
+				<div class="row">
+					<div class="input-field col s12">
+						<input id="username" type="text" class="validate">
+						<label for="address" data-error="wrong" data-success="right">Creator</label>
+					</div>
+				</div>
+			</div>
+		
+			<div class="left" style="width:50%">
+				<div class="row">
+					<div class="input-field col s12">
+						<input id="username" type="text" class="validate">
+						<label for="address" data-error="wrong" data-success="right">Year Taken</label>
+					</div>
+				</div>
+			</div>
+		
+			<div class="left" style="width:50%">
+				<div class="row">
+					<div class="input-field col s12">
+						<input id="username" type="text" class="validate">
+						<label for="address" data-error="wrong" data-success="right">Publisher</label>
+					</div>
+				</div>
+			</div>
+		
+			<div class="left" style="width:50%">
+				<div class="row">
+					<div class="input-field col s12">
+						<input id="username" type="text" class="validate">
+						<label for="address" data-error="wrong" data-success="right">Place Published</label>
+					</div>
+				</div>
+			</div>
+		
+			<div class="left" style="width:50%">
+				<div class="row">
+					<div class="input-field col s12">
+						<input id="username" type="text" class="validate">
+						<label for="address" data-error="wrong" data-success="right">Place Taken</label>
+					</div>
+				</div>
+			</div>
+
+			<div class="left" style="width:50%">
+				<div class="row">
+					<div class="input-field col s12">
+						<input id="username" type="text" class="validate">
+						<label for="address" data-error="wrong" data-success="right">Abstract</label>
+					</div>
+				</div>
+			</div>
+		
+			<div class="left" style="width:100%">
+				<div class="row">
+					<div class="input-field col s12">
+						<input id="username" type="text" class="validate">
+						<label for="address" data-error="wrong" data-success="right">Keywords</label>
+					</div>
+				</div>
+			</div>
+		
+			<br><br>
+			<div class="center">
+				<input id = "Add" class="SerButton waves-effect lighten-1" value="Add Photo" type="submit"/>
+			</div>			
+		</div>
+
+		<div class="row left" style="width:20%; padding-left:50px; padding-top:160px">		
+			<i class="large material-icons">add_a_photo</i>
+			<input type="file" name="pic" accept="image/*">		
+		</div>
+		
+	</form>	
+
+	<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+	<div class="footer1">
+		<div class="container">
+			Made by <a style="color:#ffffff" href="https://www.facebook.com/vazdilanson.mathalamuthu">Team Imperium</a>
+		</div>
+    </div>
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+
+  </body>
+</html>
