@@ -71,7 +71,7 @@
         <input id = "submit" name="submit" class="SerButton waves-effect lighten-1" value="Log In" type="submit"/>
     </div>
     <br>
-    <a href="signup.php"> <font color="#E67E00">Don't have an account? Want to sign up?</font></a>
+    <a href="signup.php"> <font color="#E67E00">Don't have an account? sign up here</font></a>
 		</form>
 	</div>
 		
